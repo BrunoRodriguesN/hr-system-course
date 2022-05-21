@@ -22,7 +22,7 @@ public class ApiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		userRepository.saveAll(List.of(
-				new User(null, "Bruno", "bruno@mail.com", "123", 20.0)
+				new User(null, "Bruno", "bruno@mail.com", "123", 30.0)
 		));
 	}
 }
